@@ -1,0 +1,48 @@
+{
+  "name": "todofunctionalsystemtest",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "chromedriver": "^74.0.0",
+    "cucumber": "^5.1.0",
+    "cypress": "^3.2.0",
+    "dotenv": "^8.0.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-scripts": "3.0.1",
+    "selenium-webdriver": "^4.0.0-alpha.1"
+  },
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": " node -r dotenv/config ./node_modules/react-scripts/scripts/test.js",
+    "eject": "react-scripts eject",
+    "cucumber": "cucumber-js",
+    "jest-cucumber": "jest-cucumber",
+    "jest": "jest"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "jest-cucumber": "^2.0.11"
+  },
+  "jest": {
+    "verbose": true
+  }
+  
+}
