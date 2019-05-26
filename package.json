@@ -40,9 +40,7 @@
   },
   "devDependencies": {
     "jest-cucumber": "^2.0.11"
-  },
-  "jest": {
-    "verbose": true
   }
+
   
 }
