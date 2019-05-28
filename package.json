@@ -64,14 +64,12 @@
     "workbox-webpack-plugin": "4.2.0"
   },
   "scripts": {
-    "cypress:open": "cypress open",
-    "cypress:run": "cypress run",
+    "cypress:open": "node -r dotenv/config  ./node_modules/.bin/cypress open",
+    "cypress:run": "node -r dotenv/config  ./node_modules/.bin/cypress  run",
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
-    "test": " node -r dotenv/config ./scripts/test.js",
-    "cucumber": "cucumber-js",
-    "jest-cucumber": "jest-cucumber",
-    "jest": "jest"
+    "test": " node -r dotenv/config ./scripts/test.js"
+    
   },
   "eslintConfig": {
     "extends": "react-app"
