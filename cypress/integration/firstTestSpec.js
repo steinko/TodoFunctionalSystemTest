@@ -45,7 +45,7 @@ describe('Test Error', () => {
   beforeEach('', ()=>{
     cy.visit('/klmrl')
    })
-  it('Visits ToDdApp', () => {
+  xit('Visits ToDdApp', () => {
       cy.contains("Unknown Path")
   })
 
